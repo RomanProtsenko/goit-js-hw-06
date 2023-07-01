@@ -22,3 +22,12 @@ button {
   padding: 8px 12px;
   cursor: pointer;
 }
+
+li {
+  list-style: none;
+}
+
+.gallerytaskthree {
+  display: flex;
+  gap: 24px;
+}
