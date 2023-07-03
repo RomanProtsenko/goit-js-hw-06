@@ -4,7 +4,7 @@
 
   function validateInput() {
     const expectedLength = inputElement.getAttribute('data-length');
-    const inputValue = inputElement.value;
+    const inputValue = inputElement.value.trim();
     const isValid = inputValue.length === parseInt(expectedLength);
 
     if (isValid) {
